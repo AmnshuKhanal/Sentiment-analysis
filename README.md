@@ -73,9 +73,6 @@ Two classifiers were trained on TF-IDF features with a **75/25 train-test split*
    macro avg       0.66      0.90      0.71      1403
 weighted avg       0.96      0.89      0.91      1403
 ```
-
-> **Note on class imbalance:** The dataset is heavily skewed (79 negative vs 1,324 positive reviews), which explains the lower precision for the negative class. High negative recall (0.91) means most negative reviews are still correctly flagged.
-
 ---
 
 ## 🧪 Sample Prediction
